@@ -6,6 +6,7 @@ import Landing from './components/view/pages/landing page/landing'
 import Tranding from './components/view/pages/trending/Tranding'
 import FeaturedBrands from './components/view/pages/featured brands/FeaturedBrands'
 import NewArrival from './components/view/pages/new arrival/NewArrival'
+import NewProducts from './components/view/pages/new arrival/NewProducts'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,7 +24,9 @@ function App() {
     </div>
       <div className='bg-yellow-100'><FeaturedBrands /></div>
       <div className='p-5'>
-      <NewArrival />
+      {/* <NewArrival /> */}
+      <NewProducts />
+    
     </div>
     </>
   )

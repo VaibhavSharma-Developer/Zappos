@@ -28,8 +28,24 @@ import steveMaddenfirst from './gallery/steveMaddenfirst.jpg';
 import steveMaddenSecond from './gallery/steveMaddensecond.jpg';
 import miaBlackZoomedIn from './gallery/miaBlackZoomedIn.jpg';
 import miaBlackZommedOut from './gallery/miaBlackZommedOut.jpg';
-
-
+import madwellGrayFirst from './gallery/madwellGrayFirst.jpg';
+import madwellGraySecond from './gallery/madwellGraySecond.jpg';
+import madwellWhiteFirst from './gallery/madwellWhiteFirst.jpg';
+import madwellWhiteSecond from './gallery/madwellWhiteSecond.jpg';
+import calvinKleinSilverFirst from './gallery/calvinKleinSilverFirst.jpg';
+import calvinKleinSilverSecond from './gallery/calvinKleinSilverSecond.jpg';
+import calvinKleinBlackFirst from './gallery/calvinKleinBlackFirst.jpg';
+import calvinKleinBlackSecond from './gallery/calvinKleinBlackSecond.jpg';
+import calvinKleinWhiteFirst from './gallery/calvinKleinWhiteFirst.jpg';
+import calvinKleinWhiteSecond from './gallery/calvinKleinWhiteSecond.jpg';
+import calvinKleinDarkBlueFirst from './gallery/calvinKleinDarkBlueFirst.jpg';
+import calvinKleinDarkBlueSecond from './gallery/calvinKleinDarkBlueSecond.jpg';
+import madwellToteBag from './gallery/madwellToteBag.jpg';
+import madwellToteBagSecond from './gallery/madwellToteBagSecond.jpg';
+import psdBlackFirst from './gallery/psdBlackFirst.jpg';
+import psdBlackSecond from './gallery/psdBlackSecond.jpg';
+import psdPinkFirst from './gallery/psdPinkFirst.jpg';
+import psdPinkSecond from './gallery/psdPinkSecond.jpg';
 
 const IMAGES ={
     logo: logo,
@@ -62,5 +78,23 @@ const IMAGES ={
     steveMaddenSecond: steveMaddenSecond,
     miaBlackZoomedIn: miaBlackZoomedIn,
     miaBlackZommedOut: miaBlackZommedOut,
+    madwellGrayFirst: madwellGrayFirst,
+    madwellGraySecond: madwellGraySecond,
+    madwellWhiteFirst: madwellWhiteFirst,
+    madwellWhiteSecond: madwellWhiteSecond,
+    calvinKleinSilverFirst: calvinKleinSilverFirst,
+    calvinKleinSilverSecond: calvinKleinSilverSecond,
+    calvinKleinBlackFirst: calvinKleinBlackFirst,
+    calvinKleinBlackSecond: calvinKleinBlackSecond,
+    calvinKleinWhiteFirst: calvinKleinWhiteFirst,
+    calvinKleinWhiteSecond: calvinKleinWhiteSecond,
+    calvinKleinDarkBlueFirst: calvinKleinDarkBlueFirst,
+    calvinKleinDarkBlueSecond: calvinKleinDarkBlueSecond,
+    madwellToteBag: madwellToteBag,
+    madwellToteBagSecond: madwellToteBagSecond,
+    psdBlackFirst: psdBlackFirst,
+    psdBlackSecond: psdBlackSecond,
+    psdPinkFirst: psdPinkFirst,
+    psdPinkSecond: psdPinkSecond
 }
 export default IMAGES;
