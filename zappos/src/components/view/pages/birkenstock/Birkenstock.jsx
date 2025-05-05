@@ -7,207 +7,198 @@ import IMAGES from "../../../../assets/images/image";
 
 const products = [
   {
-    name: "MIA",
+    name: "Florida",
     price: "$49.99",
     type: "Women's",
-    txt: "New Color",
     color: "blue-300",
     variants: [
       {
-        img1: IMAGES.miaBlackZommedOut,
-        img2: IMAGES.miaBlackZoomedIn,
-        thumb: IMAGES.miaBlackZoomedIn,
+        img1: IMAGES.floridaNubuckHexSageFirst,
+        img2: IMAGES.floridaNubuckHexSageSecond,
+        thumb: IMAGES.floridaNubuckHexSageSecond,
       },
       {
-        img1: IMAGES.miaZommedOut,
-        img2: IMAGES.miaZommedIn,
-        thumb: IMAGES.miaZommedIn,
+        img1: IMAGES.floridaNubuckSandFirst,
+        img2: IMAGES.floridaNubuckSandSecond,
+        thumb: IMAGES.floridaNubuckSandSecond,
       },
     ],
   },
 
   {
-    name: "MIA",
+    name: "Papillio",
     price: "$49.99",
     type: "Women's",
-    txt: "New",
-    color: "yellow-300",
+    color:"yellow-300",
     variants: [
       {
-        img1: IMAGES.psdBlackFirst,
-        img2: IMAGES.psdBlackSecond,
-        thumb: IMAGES.psdBlackSecond,
+        img1: IMAGES.papillioDarkTeaFirst,
+        img2: IMAGES.papillioDarkTeaSecond,
+        thumb: IMAGES.papillioDarkTeaSecond,
       },
       {
-        img1: IMAGES.psdPinkFirst,
-        img2: IMAGES.psdPinkSecond,
-        thumb: IMAGES.psdPinkSecond,
+        img1: IMAGES.papillioEucalyptusFirst,
+        img2: IMAGES.papillioEucalyptusSecond,
+        thumb: IMAGES.papillioEucalyptusSecond,
+      },
+      {
+        img1: IMAGES.papillioPuresageFirst,
+        img2: IMAGES.papillioPuresageSecond,
+        thumb: IMAGES.papillioPuresageSecond,
+      },
+      {
+        img1: IMAGES.papillioZinfandelFirst,
+        img2: IMAGES.papillioZinfandelSecond,
+        thumb: IMAGES.papillioZinfandelSecond,
       },
     ],
   },
 
   {
-    name: "Betsey Johnson",
+    name: "Madrid",
     price: "$49.99",
     type: "Women's",
-    txt: "New Arrival",
-    color: "purple-300",
+    color:"purple-300",
     variants: [
       {
-        img1: IMAGES.blueByBetseyJohnsonFirst,
-        img2: IMAGES.blueByBetseyJohnsonSecond,
-        thumb: IMAGES.blueByBetseyJohnsonSecond,
+        img1: IMAGES.madridBlackFirst,
+        img2: IMAGES.madridBlackSecond,
+        thumb: IMAGES.madridBlackSecond,
       },
+      {
+        img1: IMAGES.madridEcruFirst,
+        img2: IMAGES.madridEcruSecond,
+        thumb: IMAGES.madridEcruSecond,
+      },
+      {
+        img1: IMAGES.madridRoseFirst,
+        img2: IMAGES.madridRoseSecond,
+        thumb: IMAGES.madridRoseSecond,
+      },
+      {
+        img1: IMAGES.madridStoneFirst,
+        img2: IMAGES.madridStoneSecond,
+        thumb: IMAGES.madridStoneSecond,
+      },
+      
     ],
   },
 
   {
-    name: "Adrianna Papell",
+    name: "Sydney",
     price: "$59.99",
     type: "Women's",
-    txt: "New",
-    color: "red-500",
     variants: [
       {
-        img1: IMAGES.adriannaPapellFirst,
-        img2: IMAGES.adriannaPapellSecond,
-        thumb: IMAGES.adriannaPapellSecond,
+        img1: IMAGES.sydneyLuxeBucklePurpleFirst,
+        img2: IMAGES.sydneyLuxeBucklePurpleSecond,
+        thumb: IMAGES.sydneyLuxeBucklePurpleSecond,
       },
       {
-        img1: IMAGES.adriannaPapellZommedOut,
-        img2: IMAGES.adriannaPapellZommedIn,
-        thumb: IMAGES.adriannaPapellZommedIn,
+        img1: IMAGES.sydneyLuxeBuckleWhiteFirst,
+        img2: IMAGES.sydneyLuxeBuckleWhiteSecond,
+        thumb: IMAGES.sydneyLuxeBuckleWhiteSecond,
       },
     ],
   },
 
   {
-    name: "Adrianna Papell",
+    name: "Mayari",
     price: "$59.99",
     type: "Women's",
     txt: "Leaving Soon",
-    color: "orange-300",
+    color:"orange-300",
     variants: [
       {
-        img1: IMAGES.calvinKleinBlackFirst,
-        img2: IMAGES.calvinKleinBlackSecond,
-        thumb: IMAGES.calvinKleinBlackSecond,
+        img1: IMAGES.mayariBirkoBlackFirst,
+        img2: IMAGES.mayariBirkoBlackSecond,
+        thumb: IMAGES.mayariBirkoBlackSecond,
       },
       {
-        img1: IMAGES.calvinKleinDarkBlueFirst,
-        img2: IMAGES.calvinKleinDarkBlueSecond,
-        thumb: IMAGES.calvinKleinDarkBlueSecond,
+        img1: IMAGES.mayariBirkoMochaFirst,
+        img2: IMAGES.mayariBirkoMochaSecond,
+        thumb: IMAGES.mayariBirkoMochaSecond,
       },
       {
-        img1: IMAGES.calvinKleinSilverFirst,
-        img2: IMAGES.calvinKleinSilverSecond,
-        thumb: IMAGES.calvinKleinSilverSecond,
+        img1: IMAGES.mayariBirkoSandFirst,
+        img2: IMAGES.mayariBirkoSandSecond,
+        thumb: IMAGES.mayariBirkoSandSecond,
       },
       {
-        img1: IMAGES.calvinKleinWhiteFirst,
-        img2: IMAGES.calvinKleinWhiteSecond,
-        thumb: IMAGES.calvinKleinWhiteSecond,
+        img1: IMAGES.mayariBirkoStoneFirst,
+        img2: IMAGES.mayariBirkoStoneSecond,
+        thumb: IMAGES.mayariBirkoStoneSecond,
+      },
+      {
+        img1: IMAGES.mayariBirkoWhiteFirst,
+        img2: IMAGES.mayariBirkoWhiteSecond,
+        thumb: IMAGES.mayariBirkoWhiteSecond,
       },
     ],
   },
 
   {
-    name: "MIA",
+    name: "Tokio",
     price: "$49.99",
     type: "Women's",
     txt: "New",
-    color: "blue-300",
+    color:"blue-300",
     variants: [
       {
-        img1: IMAGES.donaldPlinerfirst,
-        img2: IMAGES.donaldPlinerSecond,
-        thumb: IMAGES.donaldPlinerSecond,
+        img1: IMAGES.tokioSageFirst,
+        img2: IMAGES.tokioSageSecond,
+        thumb: IMAGES.tokioSageSecond,
+      },
+      {
+        img1: IMAGES.tokioSandFirst,
+        img2: IMAGES.tokioSandSecond,
+        thumb: IMAGES.tokioSandSecond,
       },
     ],
   },
 
   {
-    name: "MIA",
+    name: "Nubuck",
     price: "$49.99",
     type: "Women's",
     txt: "New",
-    color: "yellow-300",
+    color:"yellow-300",
     variants: [
       {
-        img1: IMAGES.kendraScott,
-        img2: IMAGES.kendraScottSecond,
-        thumb: IMAGES.kendraScott,
+        img1: IMAGES.nubuckSageFirst,
+        img2: IMAGES.nubuckSageSecond,
+        thumb: IMAGES.nubuckSageSecond,
+      },
+      {
+        img1: IMAGES.nubuckSandFirst,
+        img2: IMAGES.nubuckSandSecond,
+        thumb: IMAGES.nubuckSandSecond,
       },
     ],
   },
 
   {
-    name: "MIA",
+    name: "Silky Zebra",
     price: "$49.99",
     type: "Women's",
     txt: "Popular",
-    color: "red-500",
+    color:"red-500",
     variants: [
       {
-        img1: IMAGES.madwellGrayFirst,
-        img2: IMAGES.madwellGraySecond,
-        thumb: IMAGES.madwellGraySecond,
+        img1: IMAGES.silkyBlackFirst,
+        img2: IMAGES.silkyBlackSecond,
+        thumb: IMAGES.silkyBlackSecond,
       },
       {
-        img1: IMAGES.madwellWhiteFirst,
-        img2: IMAGES.madwellWhiteSecond,
-        thumb: IMAGES.madwellWhiteSecond,
-      },
-    ],
-  },
-
-  {
-    name: "MIA",
-    price: "$49.99",
-    type: "Women's",
-    txt: "New",
-    color: "blue-300",
-    variants: [
-      {
-        img1: IMAGES.steveMaddenfirst,
-        img2: IMAGES.steveMaddenSecond,
-        thumb: IMAGES.steveMaddenSecond,
-      },
-    ],
-  },
-
-  {
-    name: "MIA",
-    price: "$49.99",
-    type: "Women's",
-    txt: "Popular",
-    color: "orange-300",
-    variants: [
-      {
-        img1: IMAGES.madwellToteBag,
-        img2: IMAGES.madwellToteBagSecond,
-        thumb: IMAGES.madwellToteBagSecond,
-      },
-    ],
-  },
-
-  {
-    name: "MIA",
-    price: "$49.99",
-    type: "Women's",
-    txt: "New",
-    color: "purple-300",
-    variants: [
-      {
-        img1: IMAGES.pumaFirst,
-        img2: IMAGES.pumaSecond,
-        thumb: IMAGES.pumaSecond,
+        img1: IMAGES.silkyPecanFirst,
+        img2: IMAGES.silkyPecanSecond,
+        thumb: IMAGES.silkyPecanSecond,
       },
     ],
   },
 ];
 
-export default function NewProducts() {
+export default function Birkenstock() {
   const [selectedVariants, setSelectedVariants] = useState(
     Array(products.length).fill(0)
   );
@@ -228,11 +219,9 @@ export default function NewProducts() {
 
   return (
     <div className="my-10 px-4 overflow-hidden">
-      <p className="font-semibold text-2xl mt-10 mb-5">New Arrival</p>
+      <p className="font-semibold text-2xl mt-10 mb-5">Shop New Birkenstock</p>
 <div className="overflow-hidden">
       <Swiper
-        loop={true}
-        centeredSlides={true}
         modules={[Navigation]}
         navigation
         spaceBetween={20}
@@ -290,20 +279,7 @@ export default function NewProducts() {
                   <p className="font-semibold">{product.price}</p>
                 </div>
                 <div className="">
-                  <button
-                    className={`mt-2 mx-2 border-2 px-5 py-2 shadow-md ${
-                      shadowColorMap[product.color]
-                    } bg-white absolute top-0 left-0 z-30 text-xs rounded-3xl`}
-                  >
-                    {product.txt}
-                  </button>
-                  <button
-                    className={`mt-2 mx-2 border-2 px-5 py-2 shadow-md ${
-                      shadowColorMap[product.color]
-                    } bg-white absolute top-0 right-0 z-30 text-xs rounded-3xl hover:bg-blue-500`}
-                  >
-                    <i className="fa-solid fa-heart"></i>
-                  </button>
+                    <button className={`mt-2 mx-2 border-2 px-5 py-2 shadow-md ${shadowColorMap[product.color]} bg-white absolute top-0 right-0 z-30 text-xs rounded-3xl hover:bg-blue-500`}><i className="fa-solid fa-heart"></i></button>
                 </div>
               </div>
             </SwiperSlide>

@@ -14,7 +14,7 @@ export default function Category() {
             <button className='rounded-full hover:bg-gray-100 px-4 py-2'><a href="">Collections</a></button>
             <button className='rounded-full hover:bg-gray-100 px-4 py-2'><a href="" className='text-red-600  hover:text-black'>Sale</a></button>
         </div>
-        <div className="right font-bold text-md ">
+        <div className="right font-bold text-md cursor-pointer rounded-full hover:bg-gray-100 px-4 py-2">
             <a href="">Help & Support</a>
         </div>
     </div>

@@ -1,12 +1,15 @@
 import React from 'react'
 import IMAGES from '../../../assets/images/image'
+import Login from '../../auth/Login'
+import { useNavigate } from 'react-router-dom'
 
 export default function navbar() {
+    const navigate = useNavigate();
   return (
     <>
     <div className="nav flex justify-between items-center mt-1 ">
         <div className="right flex gap-8">
-            <div className="logo">
+            <div className="logo cursor-pointer">
                 <img src={IMAGES.logo2} alt="" />
             </div>
             <div className="searchBar relative items-center justify-center">
@@ -17,9 +20,8 @@ export default function navbar() {
         </div>
         <div className="left">
             <div className="btn flex gap-4 items-center justify-center text-black">
-            <i className="fa-regular fa-user border-2 rounded-full p-2 hover:bg-gray-200 cursor-pointer"></i>
-            <i className="fa-regular fa-bag-shopping border-1 p-2 rounded-full hover:bg-gray-200 cursor-pointer"></i>
-
+            <button onClick={() => navigate("/login")}><i className="fa-regular fa-user border-2 rounded-full p-2 hover:bg-gray-200 cursor-pointer"></i></button>
+            <button><i className="fa-regular fa-bag-shopping border-1 p-2 rounded-full hover:bg-gray-200 cursor-pointer"></i></button>
             </div>
         </div>
     </div>

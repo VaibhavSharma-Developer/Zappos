@@ -4,7 +4,7 @@ import IMAGES from '../../../../assets/images/image'
 export default function Tranding() {
   return (
     <>
-    <div className='my-10'>
+    <div className='my-10 overflow-hidden'>
     <p className='font-semibold text-2xl mt-10 mb-5 '>Tranding Now</p>
     <div className='grid grid-cols-6 gap-4 cursor-pointer'>
         <div><img src={IMAGES.clogs} alt="" className='w-full h-auto' />
