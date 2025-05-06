@@ -11,15 +11,18 @@ import Birkenstock from "./components/view/pages/birkenstock/Birkenstock";
 import KidSection from "./components/view/pages/kid section/KidSection";
 import { Route, Routes } from "react-router-dom";
 import Login from "./components/auth/Login";
+import GetListing from "./components/view/pages/GetListing";
+import Kiddo from "./components/view/pages/kid section/Kiddo";
+import ProductDetails from "./components/view/pages/kid section/ProductDetails";
 
 function App() {
 
   return (
-    <>
+    <>  
       <div className="overflow-hidden">
         <div className="p-5">
           <Navbar />
-          <Category />
+          <Category />  
         </div>
 
         <Routes>
@@ -49,11 +52,20 @@ function App() {
                 </div>
                 <div className="bg-pink-300">
                   <KidSection />
+                  
+                  
                 </div>
+                <div className="p-5">
+                  <Tranding />
+                </div>
+                <Kiddo />
               </>
             }
           />
+  
+          <Route path="/product/:id" element={<ProductDetails />}></Route>
         </Routes>
+        {/* <GetListing/> */}
       </div>
     </>
   );

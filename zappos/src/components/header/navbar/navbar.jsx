@@ -2,6 +2,7 @@ import React from 'react'
 import IMAGES from '../../../assets/images/image'
 import Login from '../../auth/Login'
 import { useNavigate } from 'react-router-dom'
+import {Link} from "react-router-dom"
 
 export default function navbar() {
     const navigate = useNavigate();
@@ -10,7 +11,9 @@ export default function navbar() {
     <div className="nav flex justify-between items-center mt-1 ">
         <div className="right flex gap-8">
             <div className="logo cursor-pointer">
+                <Link to="/">
                 <img src={IMAGES.logo2} alt="" />
+                </Link>
             </div>
             <div className="searchBar relative items-center justify-center">
                 <i className="fa-solid fa-magnifying-glass absolute left-3 top-[13px] text-gray-600"></i>

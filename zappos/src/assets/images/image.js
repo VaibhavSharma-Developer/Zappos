@@ -97,6 +97,10 @@ import silkyPecanFirst from './gallery/silkyPecanFirst.jpg';
 import silkyPecanSecond from './gallery/silkyPecanSecond.jpg';
 import kidsShoes from './gallery/kidsShoes.webp';
 import kidsSection from './gallery/kidsSection.webp';
+import dolceVita from './gallery/dolceVita.webp';
+import steveMadden from './gallery/steveMadden.webp';
+import wacoal from './gallery/wacoal.jpg';
+import northFace from './gallery/northFace.jpg';
 
 
 const IMAGES ={
@@ -199,5 +203,9 @@ const IMAGES ={
     silkyPecanSecond: silkyPecanSecond,
     kidsShoes: kidsShoes,
     kidsSection: kidsSection,
+    dolceVita: dolceVita,
+    steveMadden: steveMadden,
+    wacoal: wacoal,
+    northFace: northFace,
 }
 export default IMAGES;
